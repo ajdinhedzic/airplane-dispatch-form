@@ -2,13 +2,22 @@
   "name": "dispatch-form",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest src/test/**"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "body-parser-xml": "^1.1.0",
+    "express": "^4.17.1",
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "moxios": "^0.4.0",
+    "supertest": "^4.0.2"
   }
 }

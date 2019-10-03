@@ -1,14 +1,11 @@
 import axios from 'axios';
 
 export let get = (url) => {
-    console.log('url', url);
     return axios.get(url)
         .then((response) => {
-            console.log(response);
             return response.data;
         })
         .catch((response) => {
-            console.log(response);
             return response.data;
         })
 };
