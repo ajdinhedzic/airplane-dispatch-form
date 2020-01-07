@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Navbar } from './components/Navbar';
 import { Weather } from './components/weather/Weather';
-import { WeightAndBalance } from './components/WeightAndBalance';
+import WeightAndBalance from './components/weightAndBalance/WeightAndBalance';
 
 function App() {
     return (
